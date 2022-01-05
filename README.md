@@ -10,6 +10,7 @@ export LANG=C.UTF-8
 google-oauthlib-tool --client-secrets /data/client.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless
 ```
 and follow the prompt to save the credentials.
+
 4. Copy credentials from their generated location to `/data/cred.json`
 5. Restart the container.
 
